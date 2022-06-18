@@ -1,4 +1,4 @@
-package club.icegames.spigotplugintemplate.core;
+package com.seailz.playerpoints.core;
 
 import games.negative.framework.message.Message;
 import lombok.Getter;
@@ -18,7 +18,17 @@ import java.util.List;
     @Getter
     public enum Locale {
 
-        ERROR_INVALID_PLAYER("error.invalidplayer", Collections.singletonList("&c&lERROR&f That player is invalid!"));
+        NOT_ON_LUNAR("NOT_ON_LUNAR", Collections.singletonList(
+                "&cYou aren't on &fLunar Client&c!"
+        )),
+
+        INVALID_PLAYER("INVALID_PLAYER", Collections.singletonList(
+                "&cInvalid player!"
+        )),
+
+        WAYPOINT_SET("WAYPOINT_SET", Collections.singletonList(
+                "&aWaypoint set!"
+        ));
 
         private final String id;
         private final List<String> defaultMessage;

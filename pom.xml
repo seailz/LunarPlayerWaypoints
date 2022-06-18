@@ -5,13 +5,13 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.seailz</groupId>
-    <artifactId>SpigotPluginTemplate</artifactId>
+    <artifactId>PlayerPoints</artifactId>
     <version>1.0</version>
     <packaging>jar</packaging>
 
-    <name>SpigotPluginTemplate</name>
+    <name>PlayerPoints</name>
 
-    <description>Plugin Template (Change this!)</description>
+    <description>PlayerPoints</description>
     <properties>
         <java.version>1.8</java.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -90,6 +90,18 @@
             <groupId>com.github.Negative-Games</groupId>
             <artifactId>Framework</artifactId>
             <version>2.1.0</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.github.LunarClient</groupId>
+            <artifactId>BukkitAPI</artifactId>
+            <version>v1.0.1</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.github.LunarClient</groupId>
+            <artifactId>BukkitAPI-NetHandler</artifactId>
+            <version>master-SNAPSHOT</version>
             <scope>compile</scope>
         </dependency>
         <dependency>

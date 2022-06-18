@@ -1,7 +1,6 @@
-name: SpigotPluginTemplate
+name: PlayerPoints
 version: ${project.version}
-main: com.seailz.spigotplugintemplate.SpigotPluginTemplate
-api-version: 1.18
+main: com.seailz.playerpoints.PlayerPointPlugin
 authors: [ Seailz ]
-description: Plugin Tempalte (Change this!)
-website: www.seailzcom
+description: Set a waypoint at a player's location!
+website: www.seailz.com
